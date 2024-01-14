@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(76, 103, 124);
+    /* rgb(2, 132, 207); */
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 187, 69);
+    text-align: center;
+    border: 1px solid black;
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: end;
+    font-size: large;
+    border-bottom: 5px solid rgb(250, 187, 69);
+}
+
+
+.me {
+    padding-top: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+.p {
+    display: flex;
+}
+
+.project1 {
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("https://placehold.co/600x400");
+    /* display: inline;
+flex-wrap: wrap; */
+}
+
+.project0 {
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+}
+
+.contact-me {
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    body,
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
